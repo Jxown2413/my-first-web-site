@@ -3,43 +3,184 @@
     <head>
         <title>WEB1 - MEMBER</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #grid #article table {
+                border-collapse: collapse;
+            }
+            #grid #article td {
+                width: 100px;
+                height: 50px;
+                text-align: center;
+                border: 1px solid gray;
+                vertical-align: middle;
+            }
+            #grid #article .tablehead {
+                text-align: center;
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
         <h1><a href="index.html">WEB</a></h1>
-        <ol>
-            <li><a href="1.html">NMIXX</a></li>
-            <li><a href="2.html">MEMBER</a></li>
-            <li><a href="3.html">Music</a></li>
-        </ol>
-        <h2>MEMBER</h2>
-        <ul>
-            <li>릴리</li>
-            <li>해원</li>
-            <li>설윤</li>
-            <li>배이</li>
-            <li>지우</li>
-            <li>규진</li>
-        </ul>
+        <div id="grid">
+            <ol>
+                <li><a href="1.html">NMIXX</a></li>
+                <li><a href="2.html">MEMBER</a></li>
+                <li><a href="3.html">Music</a></li>
+            </ol>
+            <div id="article">
+                <h2>MEMBER</h2>
+                <ul>
+                    <li>
+                        <h4>릴리</h4>
+                        <table>
+                            <tr class="tablehead">
+                                <td>본명</td>
+                                <td>생년월일</td>
+                                <td>소속사</td>
+                                <td>소속 그룹</td>
+                                <td>포지션</td>
+                                <td>MBTI</td>
+                            </tr>
+                            <tr>
+                                <td>릴리</td>
+                                <td>2002년<br>10월 17일</td>
+                                <td>JYP</td>
+                                <td>NMIXX</td>
+                                <td>메인보컬</td>
+                                <td>ENFP</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h4>해원</h4>
+                        <table>
+                            <tr class="tablehead">
+                                <td>본명</td>
+                                <td>생년월일</td>
+                                <td>소속사</td>
+                                <td>소속 그룹</td>
+                                <td>포지션</td>
+                                <td>MBTI</td>
+                            </tr>
+                            <tr>
+                                <td>오해원</td>
+                                <td>2003년<br>02월 22일</td>
+                                <td>JYP</td>
+                                <td>NMIXX</td>
+                                <td>리더, 메인보컬</td>
+                                <td>ISTP</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h4>설윤</h4>
+                        <table>
+                            <tr class="tablehead">
+                                <td>본명</td>
+                                <td>생년월일</td>
+                                <td>소속사</td>
+                                <td>소속 그룹</td>
+                                <td>포지션</td>
+                                <td>MBTI</td>
+                            </tr>
+                            <tr>
+                                <td>설윤아</td>
+                                <td>2004년<br>01월 26일</td>
+                                <td>JYP</td>
+                                <td>NMIXX</td>
+                                <td>보컬, 댄서</td>
+                                <td>ISFP / ISTP</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h4>배이</h4>
+                        <table>
+                            <tr class="tablehead">
+                                <td>본명</td>
+                                <td>생년월일</td>
+                                <td>소속사</td>
+                                <td>소속 그룹</td>
+                                <td>포지션</td>
+                                <td>MBTI</td>
+                            </tr>
+                            <tr>
+                                <td>배진솔</td>
+                                <td>2004년<br>12월 28일</td>
+                                <td>JYP</td>
+                                <td>NMIXX</td>
+                                <td>보컬, 댄서</td>
+                                <td>ENFP</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h4>지우</h4>
+                        <table>
+                            <tr class="tablehead">
+                                <td>본명</td>
+                                <td>생년월일</td>
+                                <td>소속사</td>
+                                <td>소속 그룹</td>
+                                <td>포지션</td>
+                                <td>MBTI</td>
+                            </tr>
+                            <tr>
+                                <td>김지우</td>
+                                <td>2005년<br>04월 13일</td>
+                                <td>JYP</td>
+                                <td>NMIXX</td>
+                                <td>보컬, 래퍼, 댄서</td>
+                                <td>ISFP</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <h4>규진</h4>
+                        <table>
+                            <tr class="tablehead">
+                                <td>본명</td>
+                                <td>생년월일</td>
+                                <td>소속사</td>
+                                <td>소속 그룹</td>
+                                <td>포지션</td>
+                                <td>MBTI</td>
+                            </tr>
+                            <tr>
+                                <td>장규진</td>
+                                <td>2006년<br>05월 26일</td>
+                                <td>JYP</td>
+                                <td>NMIXX</td>
+                                <td>보컬, 래퍼, 댄서</td>
+                                <td>ESFJ / ENFJ</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <p>
-            <div id="disqus_thread"></div>
+            <div id="disqus_trread"></div>
             <script>
                 /**
-                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT trE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING trESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
                 /*
                 var disqus_config = function () {
-                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                tris.page.url = PAGE_URL;  // Replace PAGE_URL witr your page's canonical URL variable
+                tris.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER witr your page's unique identifier variable
                 };
                 */
-                (function() { // DON'T EDIT BELOW THIS LINE
+                (function() { // DON'T EDIT BELOW trIS LINE
                 var d = document, s = d.createElement('script');
                 s.src = 'https://web1-1-zimbclplwh.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
                 })();
             </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <noscript>Please enable JavaScript to view tre <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </p>
     </body>
 </html>
